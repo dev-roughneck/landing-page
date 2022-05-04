@@ -3,7 +3,6 @@
 
 * {
     font-family: 'Roboto';
-    color: #f9faf8;
 }
 a {
     text-decoration: none;
@@ -22,6 +21,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
+    color: #f9faf8;
     padding: 1em 5em;
 }
 .header {
@@ -31,18 +31,21 @@ body {
 .links a {
     font-size: 18px;
     margin-left: 5px;
+    color: #f9faf8;
 }
 /* Body One */
 .bd-1 {
     display: flex;
     background-color: #1f2937;
+    color: #f9faf8;
     padding: 5em 5em;
     justify-content: space-between;
     align-items: center;
 }
 .bd-1-block {
-    width: 400px;
+    width: auto;
     font-size: 18px;
+    padding-right: 100px;
 }
 .bd-1-block h1 {
     font-size: 48px;
@@ -53,7 +56,7 @@ body {
 .bd-1-block2 {
     display: flex;
     background-color: rgb(212, 212, 212);
-    width: 200px;
+    min-width: 200px;
     height: 200px;
     align-items: center;
     justify-content: center;
@@ -63,12 +66,36 @@ body {
     opacity: 1;
 }
 .bd-1-button {
+    color: #f9faf8;
     background-color: #3882f6;
     border: none;
     padding: 5px 20px;
     border-radius: 6px;
 }
 /* Body Two */
+.bd-2 {
+    padding: 5em 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1f2937;
+}
+.bd-2-block {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    gap: 25px;
+    text-align: center;
+}
+.bd-2-holder {
+    display: flex;
+    background-color: rgb(212, 212, 212);
+    min-width: 200px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    opacity: .3;
+}
 
 /* Body Three */
 
