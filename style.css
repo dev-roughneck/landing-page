@@ -1,0 +1,77 @@
+/* Body/Global */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto';
+    color: #f9faf8;
+}
+a {
+    text-decoration: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+/* Navigation */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 1em 5em;
+}
+.header {
+    font-size: 24px;
+    font-weight: bold;
+}
+.links a {
+    font-size: 18px;
+    margin-left: 5px;
+}
+/* Body One */
+.bd-1 {
+    display: flex;
+    background-color: #1f2937;
+    padding: 5em 5em;
+    justify-content: space-between;
+    align-items: center;
+}
+.bd-1-block {
+    width: 400px;
+    font-size: 18px;
+}
+.bd-1-block h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    padding: 0;
+    margin: 0;
+}
+.bd-1-block2 {
+    display: flex;
+    background-color: rgb(212, 212, 212);
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    opacity: .3;
+}
+.bd-1-block2 p {
+    opacity: 1;
+}
+.bd-1-button {
+    background-color: #3882f6;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 6px;
+}
+/* Body Two */
+
+/* Body Three */
+
+/* Body Four */
+
+/* Footer */
